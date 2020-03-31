@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cursos',
-  templateUrl: './cursos.component.html',
-  styleUrls: ['./cursos.component.css']
+  selector: 'app-data-binding',
+  templateUrl: './data-binding.component.html',
+  styleUrls: ['./data-binding.component.css']
 })
-export class CursosComponent implements OnInit {
+export class DataBindingComponent implements OnInit {
 
   url: string = 'http://www;google.com';
   cursoAngular: boolean = true;
@@ -16,6 +16,8 @@ export class CursosComponent implements OnInit {
 
   isMouseOver: boolean;
   nome: string = 'abc';
+
+  nomeCurso: string = 'Angular';
 
   pessoa: any = {
     nome: 'def',

@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { CursosComponent } from './cursos/cursos.component';
+import { InputPropertyComponent } from './input-property/input-property.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CursosComponent
+    InputPropertyComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
